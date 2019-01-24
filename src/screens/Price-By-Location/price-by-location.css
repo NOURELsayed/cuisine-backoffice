@@ -1,0 +1,140 @@
+.squre{
+    height: 90%;
+    width: 95%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #ffffff;
+    /* background-color: yellow; */
+}
+
+.squre .search-row{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 10%;
+    position: relative;
+    /* background-color: aquamarine; */
+    border-bottom: 1 px solid #eaeaea;
+}
+
+.search-row .icon{
+    position: absolute;
+    font-size: 2.2vh;
+    color: #707070;
+    top: 36%;
+    left: 1%;;
+}
+
+.search-row input{
+    height: 95%;
+    width: 30%;
+    border: 1px solid #b2b2b2;
+    border-radius: 3px;
+    text-indent: 16%;
+    font-size: 2vh;
+}
+
+.table-div{
+    height: 70%;
+    width: 100%;
+    /* background-color: lightblue; */
+    /* border-radius: 5px;
+    border: 1px solid #e6e6e6; */
+}
+
+.btable{
+    width: 100%;
+}
+
+.row-collapse{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-collapse p , .bth p{
+    color: #484848;
+    margin: 0;
+    align-self: center;
+    font-size: 2vh;
+}
+
+.row-collapse .icon{
+    align-self: center;
+}
+
+.bth {
+    text-align: center;
+    font-weight: bold;
+    color: #474747;
+    padding: 0;
+}
+
+.btable{
+    border-collapse: collapse;
+    border-radius: 10rem;
+}
+
+.active{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #e33e40;
+}
+
+.btable, .bth, .btd {
+    border: solid 1px #707070;
+    /* border-collapse: collapse; */
+    /* table-layout: fixed; */
+}
+
+/* .btr:last-child , .btd:first-child{
+    border-radius: 30px;
+} */
+
+.btr{
+    border: 1px solid #707070;
+    /* width: 100%; */
+}
+.btr:nth-child(even) {
+    background-color: #efefef;
+}
+
+.first{
+    width: 22%;
+    min-width: 22%;
+    padding: 0;
+}
+
+.second{
+    width: 26%;
+    min-width: 26%;
+    padding: 0;
+}
+
+.third{
+    width: 10%;
+    min-width: 10%;
+    font-size: 1.8vh;
+    color: #474747;
+    padding: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.fourth{
+    width: 6%;
+    min-width: 6%;
+    font-size: 1.8vh;
+    color: #474747;
+    padding: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

@@ -1,0 +1,98 @@
+@import './../../../assets/Colors.less';
+
+.AllFont{
+    font-weight: normal;
+    font-family: Lato;
+    font-style: normal;
+    font-stretch: normal;
+}
+.GeneralMargin{
+    margin-right: 0%;
+    margin-left: 0%;
+}
+.GeneralPadding{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.BOmenuHeader{
+    .AllFont();
+    font-size: 1.2vw;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color:@headerColor;
+    margin: 10% auto;
+
+}
+.MenuLine{
+      width:85%;
+      color: @LineColor;
+      margin-bottom:10%;
+}
+.backofficcollapse-div{
+    box-sizing: content-box;
+    height: 80vh;
+}
+  
+.BackOfficeDiv{
+    background-color:@cuisineBackground;
+    .GeneralPadding();
+    .GeneralMargin();
+    height: 92vh;
+    box-shadow: 1px -1px 1px 0 rgba(0, 0, 0, 0.04);
+    overflow: auto;
+}
+.BOMenuDiv{
+    .AllFont();
+    .GeneralPadding();
+    .GeneralMargin();
+    margin-bottom: 2%;
+    width: 100%;
+    height: 5.5vh;
+    border-radius: 15px;
+    border: 1px solid  @cuisineBackground;
+    font-size: 0.9vw;
+    letter-spacing: initial;
+    color: @TextColor;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.backoffice_icon{
+    align-self: center;
+    margin-left: 8%;  
+}
+.Caret_icon{
+    align-self: center;
+    color: @cuisineBackground;
+    margin-right: 5%;
+    
+}
+.BOMenuDiv p{
+    margin: 0;
+    align-self: center;
+}
+
+.SubMenu{
+    .AllFont();
+    background-color: @cuisineBackground;
+    padding: 10% auto;
+    .GeneralMargin();
+    width: 90%;
+    height: 5vh;
+    font-size: 0.7vw;
+    letter-spacing: initial;
+    color: @TextColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.subMenuBorder{
+    border-left: solid 3px @SubBorder;
+    margin-left: 10% ;
+
+}

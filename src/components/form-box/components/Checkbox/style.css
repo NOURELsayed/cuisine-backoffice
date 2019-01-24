@@ -1,0 +1,31 @@
+
+
+.checkbox_head{
+    width: 10vw;
+    font-family: NunitoSans;
+    font-size: 1vw;
+    padding: 1vw;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #707070;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: Left;
+    border: 0.5px solid #e3e3e3;
+}
+
+.checkbox_body{
+    width: 3vw;
+    height: 3vw;
+    margin: 1%;
+    background-color: #efefef;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1vw 2vw;
+}

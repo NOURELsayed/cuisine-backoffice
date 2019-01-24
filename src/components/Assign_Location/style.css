@@ -1,0 +1,57 @@
+.containerass{
+    display: block;
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center; 
+}
+.header{
+    border: 0%;
+    border-bottom: 1px solid #707070;
+    width: 90%;
+}
+.ass{
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    color: #575757;
+}
+.gridcon{
+   
+    border: 1px solid #cec2c2;
+    border-radius: 4px;
+    width: 45%;
+    height: 60%;
+    
+}
+.searchclass{
+    height: 60%;
+  border-radius: 2.5px;
+  border: 1px solid #9a9a9a;
+  margin: auto;
+  width: 80%;
+  
+    
+}
+.searchclass::placeholder{
+padding: 10%;
+   font-family: NunitoSans;
+  font-size: 0.8rem;
+  text-align: left;
+  color: #707070;
+
+}
+.downdiv{
+    border: 0%;
+    border-bottom: 1px solid #931066;
+    width: 100%;
+    margin: auto;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+
+    
+}

@@ -1,0 +1,13 @@
+.backOffice-body{
+    display: grid ;
+    grid-template-columns: 15% 85%;
+    background-color: #f6f6f6;
+    height: 93%;
+  }
+
+.backOffice-subbody{
+    display: grid ;
+    grid-template-columns: 25% 75%;
+    background-color: #f6f6f6;
+    height: 88%;
+}

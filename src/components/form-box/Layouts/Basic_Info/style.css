@@ -1,0 +1,19 @@
+/* Basic_Info */
+.item3 {
+    grid-area: myArea;
+  }
+  
+.grid-container {
+    display: grid;
+    grid-template:
+    '. . myArea'
+    '. . myArea';
+    grid-gap: 1%;
+    padding: 1%;
+}
+
+.grid-container > div {
+    text-align: left;
+    padding: 0 0;
+    margin: 0 3%;
+  }
